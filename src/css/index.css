@@ -6,6 +6,7 @@
     clear: both;
 }
 
+/* CSS变量 */
 :root {
     /* 设置场景大小 */
     --bg-width: 5000px;
@@ -42,7 +43,7 @@ body::-webkit-scrollbar {
     border-radius: 50%;
     background-image: url("../imgs/background.jpg");
 
-    /* 阴影向内inset */
+    /* 阴影，向内是inset */
     box-shadow: 0px 0px 200px red;
 }
 
@@ -71,7 +72,7 @@ body::-webkit-scrollbar {
     height: 100px;
     border: greenyellow 2px solid;
     border-radius: 50%;
-    background-color: red;
+    background-color: yellowgreen;
 }
 .snake-body-1 {
     position: absolute;
@@ -79,7 +80,7 @@ body::-webkit-scrollbar {
     height: 80px;
     border: blue 2px solid;
     border-radius: 50%;
-    background-color: red;
+    background-color:pink;
 }
 .snake-tail-1 {
     position: absolute;
